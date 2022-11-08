@@ -1,0 +1,34 @@
+[info]
+profile=""
+version=""
+
+[profiles.default]
+distro=""
+font_dir = ""
+apps = []
+[[profiles.default.repos]]
+name=""
+link=""
+apps=[]
+
+[distro_info.fedora]
+package_manager="dnf"
+install="install"
+uninstall="remove"
+
+[distro_info.debian]
+package_manager="apt"
+install="install"
+uninstall="remove"
+
+[distro_info.opensuse]
+package_manager="zypper"
+install="install"
+uninstall="remove"
+
+[distro_info.window]
+package_manager="scoop"
+install = "install"
+uninstall = "uninstall"
+
+
